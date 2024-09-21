@@ -1,0 +1,47 @@
+.flats {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flats .flat {
+  width: 384px;
+  height: 455px;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flats .flat:hover {
+  box-shadow: 5px 5px 12px 0 rgba(2, 21, 38, 0.08);
+  cursor: pointer;
+}
+
+.flat .flat-image {
+    width: 100%;
+}
+
+.flat .flat-info {
+    border: 1px solid rgba(219, 219, 219, 1);
+    border-top: 0;
+    border-radius: 0 0 14px 14px;
+    width: 100%;
+    height: 100%;
+    padding: 22px 25px;
+}
+
+.flat .flat-info .price {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.flat .flat-info .address {
+    margin-bottom: 20px;
+}
+
+.flat .flat-info .address, .flat .flat-info .rooms {
+    font-size: 16px;
+    color: rgba(2, 21, 38, 0.7);
+}

@@ -1,0 +1,16 @@
+body {
+    width: 1920px;
+    font-size: 16px;
+}
+
+main {
+    padding: 0px 162px;
+    font-family: FiraGO;
+}
+
+header {
+    border: 1px solid #DBDBDB;
+    height: 100px;
+    padding: 38px 162px;
+}
+

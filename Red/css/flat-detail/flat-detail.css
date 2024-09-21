@@ -1,0 +1,160 @@
+.back-arrow {
+    margin-top: 64px;
+    margin-bottom: 29px;
+}
+
+.flat-detail-form {
+    display: flex;
+}
+
+.flat-detail {
+    margin-left: 68px;
+    margin-right: 181px;
+}
+
+.flat-options {
+    margin: 30px 165px 40px 0;
+}
+
+.price {
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    color: #021526;
+}
+
+.address, .space, .bedroom, .postal-code {
+    font-size: 24px;
+    color: #808A93;
+    line-height: 28.8px;
+    gap: 6px;
+}
+
+.space, .bedroom, .postal-code {
+    margin-top: 16px;
+}
+
+.address::before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-image: url(../../icons/location-marker.svg);
+}
+
+.space::before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-image: url(../../icons/space.svg);
+}
+
+.bedroom::before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-image: url(../../icons/bed.svg);
+}
+
+.postal-code::before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-image: url(../../icons/postalcode.svg);
+}
+
+.about-flat {
+    margin-bottom: 50px;
+    color: #808A93;
+    line-height: 26px;
+}
+
+.agent-info {
+    width: 503px;
+    height: 174px;
+    border: 1px solid #DBDBDB;
+    border-radius: 8px;
+}
+
+.flex {    
+    display: flex;
+}
+
+.agent-img {
+    margin: 24px 0 0 20px;
+    width: 72px;
+    height: 72px;
+    border-radius: 100px;
+}
+
+.agent-name {
+    font-weight: 400;
+    line-height: 19.2px;
+    margin: 40px 0 4px 14px;
+}
+
+.status {
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #676E76;
+    margin-left: 14px;
+}
+
+.agent-mail::before {
+    content: '';
+    width: 16px;
+    height: 13px;
+    display: inline-block;
+    background-image: url(../../icons/Shape-mail.svg);
+    color: #808A93;
+}
+
+.agent-mail {
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #808A93;
+}
+
+.agent-number::before {
+    content: '';
+    width: 13.06px;
+    height: 13.08px;
+    display: inline-block;
+    background-image: url(../../icons/Vector-phone.svg);
+    color: #808A93;
+}
+
+.delete-flat {
+    width: 131px;
+    height: 34px;
+    padding: 10px;
+    border: 1px solid #676E76;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.4px;
+    align-items: center;
+    color: #676E76;
+}
+
+.adding-date {
+    margin: 11px 0 14px 0;
+    text-align: right;
+    line-height: 19.2px;
+    color: #808A93;
+}
+
+.near-flats {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    color: #021526;
+    margin: 53px 0 52px 0;
+}
